@@ -25,6 +25,12 @@ git commit -m "I added user info to readme"
 //SYNC TO GITHUB
 git push
 
+//COPY THE FILES FROM GITHUB
+git pull --set-upstream origin main
+
+//COPY THE FILES FROM GITHUB WITH THE DEFAULT PARAMETERS
+git pull
+
 //VIEW THE VALUE OF ORIGIN
 git remote -v
 
