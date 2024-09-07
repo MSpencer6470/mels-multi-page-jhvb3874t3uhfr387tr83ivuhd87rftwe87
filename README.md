@@ -8,6 +8,9 @@ git branch -M main
 git remote add origin https://github.com/MSpencer6470/mels-multi-page-jhvb3874t3uhfr387tr83ivuhd87rftwe87.git
 curl -sS https://webi.sh/gh | sh
 gh auth login
+git push --set-upstream origin main
+
+//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
 git push -u origin main
 
 //ADD CHANGES THAT WERE MADE TO THE README FILE
@@ -20,7 +23,7 @@ git add .
 git commit -m "I added user info to readme"
 
 //SYNC TO GITHUB
-git push origin main
+git push
 
 //VIEW THE VALUE OF ORIGIN
 git remote -v
@@ -30,3 +33,12 @@ git remote add origin https://github.com/MSpencer6470
 
 //CHANGE THE VALUE OF THE ORIGIN VARIABLE
 git remote set-url origin https://github.com/MSpencer6470
+
+//ACTIVATE OR INITIALIZE GIT SOURCE CONTROL
+git init
+
+//RENAMES THE CURRENT BRANCH TO MAIN
+git branch -M main
+
+//GET THE CURRENT VERSION OF GIT
+git --version
