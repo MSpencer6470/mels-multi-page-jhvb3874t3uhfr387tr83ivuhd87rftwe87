@@ -10,8 +10,14 @@ git config user.name "MSpencer6470"
 git config user.email "ladysqueek647@gmail.com"
 git push -u origin main
 
+//ADD CHANGES THAT WERE MADE TO THE README FILE
+git add README.md
+
+//ADD CHANGES THAT WERE MADE IN ALL FILES AND FOLDERS
 git add .
 
+//CREATE A SAVE POINT AND ATTACH A MEMO TO THE SAVE POINT
 git commit -m "I added user info to readme"
 
+//SYNC TO GITHUB
 git push origin main
