@@ -7,3 +7,5 @@ git remote add origin https://github.com/MSpencer6470/mels-multi-page-jhvb3874t3
 curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
+git config user.name "MSpencer6470"
+git config user.email ""
