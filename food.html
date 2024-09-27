@@ -109,34 +109,14 @@
           Guess the answer to today's riddle to win a week's worth of free lunch!
         </p>
         <script>
- //STEPS: Store 7 in myNumber.
-  //PSEUDO: myNumber = 7
-  myNumber = 7;
-
-  //STEPS: Prompt for a number. Store it in userText.
-  //PSEUDO: userText = prompt("Guess my number.")
-  userText = prompt("Guess the number.");
-
-  //STEPS: Convert userText to a number. Store it in userNumber.
-  //PSEUDO: userNumber = Number(userText)
+  myNumber = 3;
+  userText = prompt("Guess the answer.");
   userNumber = Number(userText);
-
-  //STEPS: Compare if userNumber equals myNumber. Store it in theResult.
-  //PSEUDO: theResult = does userNumber equal myNumber
   theResult = userNumber === myNumber;
-
-  //STEPS: If theResult is yes
-  //PSEUDO: If theResult is yes
   if (theResult) {
-
-  //STEPS: Display "You guessed my number!"
-  //PSEUDO:  Display "You guessed my number!"
-     document.write("12." + "You guessed my number!" + "<br>");
-
-  //STEPS: Otherwise
-  //PSEUDO: Otherwise
+     document.write("You guessed the answer!" + "<br>");
    } else {
-    document.write("12." + "You didn't guess my number!" + "<br>");
+    document.write("You didn't guess my number!" + "<br>");
    }
 
         </script>
