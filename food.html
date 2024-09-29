@@ -114,21 +114,19 @@
         <img width="50%" src="https://cdn.glitch.global/426142a0-a05d-4285-82d2-4d5473771dbd/460b005154b82e00062edaf834.jpg.webp?v=1727518278977">
         </p>
         <script>
-          <button
-          <button onclick="runFunction1()"> Guess here </button>
-        </script>
-        <script>
   function runFunction1() {
-     myCount = 0
-  do {
-    userNumber = ask("Enter a number.");
-    document.write(userNumber);
-    myCount++;
-    isDone = myCount === 3
-   }  While (!isDone)
-  }
-          
+       myCount = 0
+    do {
+      userNumber = ask("Enter a number.");
+      document.write(userNumber);
+      myCount++;
+      isDone = myCount === 3
+     }  While (!isDone);
+  }     
     </script>
+        
+         <button onclick="runFunction1()"> Guess here </button>
+  
       </div>
     </main>
     <footer>
