@@ -110,23 +110,25 @@
           GUESS THE ANSWER!!!
         </h2>
         <p>
-          Guess the answer to today's riddle to win a week's worth of free lunch!
-        <img width="50%" src="https://cdn.glitch.global/426142a0-a05d-4285-82d2-4d5473771dbd/460b005154b82e00062edaf834.jpg.webp?v=1727518278977">
-        </p>
+          Guess the answer to today's riddle to win a week's worth of free lunch!<br>
+                </p>
         <script>
+          debugger;
   function runFunction1() {
        myCount = 0
-    do {
-      userNumber = ask("Enter a number.");
-      document.write(userNumber);
-      myCount++;
-      isDone = myCount === 3
-     }  While (!isDone);
+      do {
+        userNumber = ask("Enter a number.");
+        document.write(userNumber);
+        myCount++;
+        isDone = myCount === 3
+    } while (!isDone);
   }     
     </script>
         
-         <button onclick="runFunction1()"> Guess here </button>
-  
+         <button onclick="runFunction1()"> Try your Luck! </button><br>
+        
+  <img width="50%" src="https://cdn.glitch.global/426142a0-a05d-4285-82d2-4d5473771dbd/460b005154b82e00062edaf834.jpg.webp?v=1727518278977">
+
       </div>
     </main>
     <footer>
